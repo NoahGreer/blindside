@@ -11,8 +11,8 @@
     object-fit:cover;
 }
 .box-400{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 15%;
     object-fit:cover;
 
 }
@@ -37,4 +37,20 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.bg-dark{
+    background-color: rebeccapurple;
+}
+.bg-purple{
+    background-color: #463553;
+}
+
+.blurred-edge {
+
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 80px 80px #343a40 inset;
+}
+
+.bg-lightgray{
+    background-color: #e2d9e2;
 }
