@@ -53,49 +53,55 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container-fluid bg-dark">
+  <div class="container-fluid bg-dark" >
 
     <div class="row">
-
       <div class="col-md-3">
         <div class="card mx-4 my-4 bg-lightgray">
           <div class="card-body text-center">
-              <h3>Stats: </h3><br>
-            <h5 class="text-left">Average Purchase:  $30K<br><br>
-            Largest Purchase: $120K <br><br>
-            Rarest Purchase:  Legit Unicorn Horn<br><br>
-            Biggest Auction:  $40K<br><br>
-            Richest Friend:  Bill Gates<br><br>
-            Partners Recommended:  10<br><br>
-                Owns Tiger:  Yes <br><br>
+              <h3>All-Time Stats: </h3><br>
+            <h5 class="text-left">
+                Average $ Per Item:  $20K<br><br>
+                Largest $ Per Item: $4 million <br><br>
+                Rarest Item Sold: <br> Bones of Charlemagne<br><br>
+                Biggest Auction:  $400K<br><br>
+                Richest Spender:  Bill Gates<br><br>
+                Tiger Owners:  2506 <br><br>
             </h5>
           </div>
         </div>
-        <ul class="pagination justify-content-center">
-          <li class="page-item ">
-            <a class="page-link" href="#">Friend Stats</a>
-          </li>
-          <li class="page-item disabled ">
-            <a class="page-link bg-lightgray" href="#">Community Stats</a>
-          </li>
-        </ul>
+          <div class="card mx-4 my-4 bg-lightgray">
+              <div class="card-body text-center">
+                  <h3>Daily Stats: </h3><br>
+                  <h5 class="text-left">
+                      Average $ Per Item:  $17K<br><br>
+                      Largest $ Per Item: $357K <br><br>
+                      Rarest Item Sold: <br> First Edition Tesla Roadster<br><br>
+                      Biggest Auction:  $40K<br><br>
+                      Tigers Sold:  6 <br><br>
+                  </h5>
+              </div>
+          </div>
       </div>
 
       <!-- People Columns -->
       <div class="col-md-3 bg-secondary">
         <!-- People Posts-->
-
+        <div class="row card bg-lightgray w-75 mx-auto">
+            <h3 class="text-center">Biggest spenders!</h3>
+        </div>
           <div class="card mb-3 shadow rounded my-4 mx-auto box-400">
               <img class="fit-to rounded" src="img/people/JKRowling.jpg" data-toggle="modal" data-target="#jkRowlingModal" >
           </div>
-
-          <div class="card mb-3 shadow rounded my-4 mx-auto box-400" >
+          <div class="card mb-3 shadow rounded my-4 mx-auto box-300" >
               <img class="fit-to rounded" src="img/people/billGates.jpg" data-toggle="modal" data-target="#billGatesModal">
           </div>
-          <div class="card mb-3 shadow rounded my-4 mx-auto box-400">
+          <div class="card mb-3 shadow rounded my-4 mx-auto box-200">
               <img class="fit-to rounded" src="img/people/bobIger.jpg" data-toggle="modal" data-target="#bobIgerModal">
           </div>
-
+          <div class="card mb-3 shadow rounded my-4 mx-auto box-200">
+              <img class="fit-to rounded" src="img/people/russellWilson.jpg" data-toggle="modal" data-target="#bobIgerModal">
+          </div>
 
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
@@ -103,24 +109,28 @@
             <a class="page-link" href="#">Lesserthans &rarr;</a>
           </li>
         </ul>
-
       </div>
       <!-- Items-->
-      <div class="col-md-3 bg-secondary h-auto" >
-
+      <div class="col-md-3 bg-secondary h-auto">
+          <div class="row card bg-lightgray w-75 mx-auto">
+              <h3 class="text-center">Most Sold!</h3>
+          </div>
         <!-- Item Posts -->
         <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-400">
-          <img class="fit-to rounded" src="img/house2/1.jpg" data-toggle="modal" data-target="#bigHouseModal">
+                <img class="fit-to rounded" src="img/house2/1.jpg" data-toggle="modal" data-target="#bigHouseModal">
         </div>
 
-        <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-400">
-          <img class="fit-to rounded" src="img/jet1/jet1.jpg" data-toggle="modal" data-target="#jetModal" >
+        <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-300">
+          <img class="fit-to rounded" src="img/jet1/Jet1.jpg" data-toggle="modal" data-target="#jetModal" >
         </div>
 
-        <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-400">
-          <img class="fit-to rounded" src="img/hallucinationWatch1.jpg" data-toggle="modal" data-target="#hallucinationModal">
+        <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-200">
+          <img class="fit-to rounded" src="img/tiger.jpg" data-toggle="modal" data-target="#tigerModal">
         </div>
 
+          <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-200">
+              <img class="fit-to rounded" src="img/yacht.jpg" data-toggle="modal" data-target="#yachtModal">
+          </div>
 
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
@@ -135,29 +145,41 @@
       </div>
 
       <!-- Profile Pic basic info window-->
-      <div class="col-md-3">
+      <div class="col-md-3 bg-secondary h-auto">
 
-        <!-- Search Widget -->
-        <div class="card my-4 mx-auto ">
-          <div class="card-body bg-lightgray">
-              <h3 class="text-md-center">Big Punisher</h3> <br>
-
-              <h5 class="text-md-center">Net Worth:  1.2 million<br><br>
-              Organization:  None<br><br>
-              Notable for being super fat and dead.
-              </h5>
+          <div class="row card bg-lightgray w-75 mx-auto">
+              <h3 class="text-center">Most Expensive!</h3>
           </div>
-        </div>
+          <!-- Item Posts -->
 
-        <img class="card-img-bottom rounded shadow mx-auto" src="img/people/bigPun.jpg">
-          <div class="card my-4 mx-auto bg-lightgray">
-              <div class="card-body">
-                  <h3 class="text-md-center">Personal Quote:</h3> <br>
-                   <h4>"Remember no matter what you do:  get money."
-                  </h4><br>
-              </div>
+          <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-400">
+              <img class="fit-to rounded" src="img/hallucinationWatch1.jpg" data-toggle="modal" data-target="#hallucinationModal">
           </div>
-    </div>
+
+          <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-300">
+              <img class="fit-to rounded" src="img/jet3/frontal.jpg" data-toggle="modal" data-target="#jetModal" >
+          </div>
+
+          <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-200">
+                  <img class="fit-to rounded" src="img/house.jpg" data-toggle="modal" data-target="#bigHouseModal">
+          </div>
+
+          <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-200">
+              <img class="fit-to rounded" src="img/car.jpg" data-toggle="modal" data-target="#jetModal" >
+          </div>
+
+
+          <!-- Pagination -->
+          <ul class="pagination justify-content-center mb-4">
+              <li class="page-item">
+                  <a class="page-link" href="#">&larr; Older</a>
+              </li>
+              <li class="page-item disabled">
+                  <a class="page-link" href="#">Newer &rarr;</a>
+              </li>
+          </ul>
+
+      </div>
     <!-- /.row -->
 
   </div>

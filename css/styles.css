@@ -11,9 +11,14 @@ html, body {
     object-fit: cover;
 }
 
-.box-250 {
-    width: 250px;
-    height: 250px;
+.box-200 {
+    width: 60%;
+    height: 7%;
+    object-fit: cover;
+}
+.box-300 {
+    width: 80%;
+    height: 11%;
     object-fit: cover;
 }
 
