@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Public profile page for Shopping Club app idea">
+  <meta name="author" content="Michael Langley">
+
+  <title>Profile</title>
+  <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="css/blog-home.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-purple fixed-top border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shopping Club</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarResponsive" aria-controls="navbarResponsive"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item btn-secondary rounded-pill shadow mx-3">
+            <a class="nav-link text-light" href="#">Home</a>
+          </li>
+            <li class="nav-item btn-secondary rounded-pill shadow mx-3">
+                <a class="nav-link text-light" href="#">Friends</a>
+            </li>
+            <li class="nav-item btn-secondary rounded-pill shadow mx-3">
+                <a class="nav-link text-light" href="#">Community</a>
+            </li>
+          <li class="nav-item btn-secondary rounded-pill shadow mx-3">
+            <a class="nav-link text-light" href="#">Account</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container-fluid bg-dark">
+
+    <div class="row">
+
+      <div class="col-md-3">
+        <div class="card mx-4 my-4 bg-lightgray">
+          <div class="card-body text-center">
+              <h3>Stats: </h3><br>
+            <h5 class="text-left">Average Purchase:  $30K<br><br>
+            Largest Purchase: $120K <br><br>
+            Rarest Purchase:  Legit Unicorn Horn<br><br>
+            Biggest Auction:  $40K<br><br>
+            Richest Friend:  Bill Gates<br><br>
+            Partners Recommended:  10<br><br>
+                Owns Tiger:  Yes <br><br>
+            </h5>
+          </div>
+        </div>
+        <ul class="pagination justify-content-center">
+          <li class="page-item ">
+            <a class="page-link" href="#">Friend Stats</a>
+          </li>
+          <li class="page-item disabled ">
+            <a class="page-link bg-lightgray" href="#">Community Stats</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- People Columns -->
+      <div class="col-md-3 bg-secondary">
+        <!-- People Posts-->
+
+          <div class="card mb-3 shadow rounded my-4 mx-auto box-400">
+              <img class="fit-to rounded" src="img/People/JKRowling.jpg" data-toggle="modal" data-target="#jkRowlingModal" >
+          </div>
+
+          <div class="card mb-3 shadow rounded my-4 mx-auto box-400" >
+              <img class="fit-to rounded" src="img/People/billGates.jpg" data-toggle="modal" data-target="#billGatesModal">
+          </div>
+          <div class="card mb-3 shadow rounded my-4 mx-auto box-400">
+              <img class="fit-to rounded" src="img/People/bobIger.jpg" data-toggle="modal" data-target="#bobIgerModal">
+          </div>
+
+
+        <!-- Pagination -->
+        <ul class="pagination justify-content-center mb-4">
+          <li class="page-item disabled">
+            <a class="page-link" href="#">Lesserthans &rarr;</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Items-->
+      <div class="col-md-3 bg-secondary h-auto" >
+
+        <!-- Item Posts -->
+        <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-400">
+          <img class="fit-to rounded" src="img/House2/1.jpg" data-toggle="modal" data-target="#bigHouseModal">
+        </div>
+
+        <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-400">
+          <img class="fit-to rounded" src="img/Jet1/Jet1.jpg" data-toggle="modal" data-target="#jetModal" >
+        </div>
+
+        <div class="card mb-3 shadow rounded my-4 bg-dark mx-auto box-400">
+          <img class="fit-to rounded" src="img/hallucinationWatch1.jpg" data-toggle="modal" data-target="#hallucinationModal">
+        </div>
+
+
+        <!-- Pagination -->
+        <ul class="pagination justify-content-center mb-4">
+          <li class="page-item">
+            <a class="page-link" href="#">&larr; Older</a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link" href="#">Newer &rarr;</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <!-- Profile Pic basic info window-->
+      <div class="col-md-3">
+
+        <!-- Search Widget -->
+        <div class="card my-4 mx-auto ">
+          <div class="card-body bg-lightgray">
+              <h3 class="text-md-center">Big Punisher</h3> <br>
+
+              <h5 class="text-md-center">Net Worth:  1.2 million<br><br>
+              Organization:  None<br><br>
+              Notable for being super fat and dead.
+              </h5>
+          </div>
+        </div>
+
+        <img class="card-img-bottom rounded shadow mx-auto" src="img/People/bigPun.jpg">
+          <div class="card my-4 mx-auto bg-lightgray">
+              <div class="card-body">
+                  <h3 class="text-md-center">Personal Quote:</h3> <br>
+                   <h4>"Remember no matter what you do:  get money."
+                  </h4><br>
+              </div>
+          </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+
+  <!-- Modal -->
+  <div id="jkRowlingModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">J.K. Rowling</h4>
+              </div>
+              <div class="modal-body">
+                  <p>
+                      Net Worth:    $5.8 Billion <br><br>
+                      Organization:    Wizarding World Inc. <br><br>
+                      Bio:    JK Rowling is most renowned for her young adult novel series "Harry Potter."
+                      She's also one of the richest women in the world.  Blah blah blah some other stuff
+                      about JK Rowling and how great she is.<br><br>
+
+                      Added:  3/05/19
+                  </p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark">Profile</button>
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+      <div id="billGatesModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title">Bill Gates</h4>
+                  </div>
+                  <div class="modal-body">
+                      <p>
+                          Net Worth:    $6.5 Billion <br><br>
+                          Organization:    Microsoft, Bill and Melinda Gates Foundation. <br><br>
+                          Bio:    Bill Gates likes burgers, computers, and being so rich that he can just give
+                          millions and millions of dollars away every year.<br><br>
+
+                          Added:  6/07/19
+
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark">Profile</button>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+      <div id="bobIgerModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title">Bob Iger</h4>
+                  </div>
+                      <div class="modal-body">
+                          <p>
+                              Net Worth:    $9.4 Billion <br><br>
+                              Organization:    Disney <br><br>
+                              Bio:    Bob Iger is the current CEO of the Disney Corporation.  He owns your childhood and
+                              will own the childhood of your children and their children.  Super ridiculously rich.<br><br>
+
+                              Added:  1/29/19
+                          </p>
+                      </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark">Profile</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="bigHouseModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title">Big Expensive House</h4>
+                  </div>
+                  <div class="modal-body">
+                      <p>
+                          Category:    Real Estate <br><br>
+                          0's involved:  6 <br><br>
+                          Description:  8 bedrooms, 4 bathrooms, 4,000 sq ft.  <br><br>
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark">Get it</button>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+      <div id="jetModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content ">
+                  <div class="modal-header">
+                      <h4 class="modal-title">Private Jet</h4>
+                  </div>
+                  <div class="modal-body">
+                      <p>
+                          Category:    Aircraft <br><br>
+                          0's involved:  7 <br><br>
+                          Description:  2 bedrooms, fully stocked kitchen, doubles as a floatation device.  <br><br>
+
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark">Get it</button>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+      <div id="hallucinationModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title">Hallucination Watch</h4>
+                  </div>
+                  <div class="modal-body">
+                      <p>
+                          Category:    Jewelry <br><br>
+                          0's involved:  6 <br><br>
+                          Description:  A lot of diamonds, roughly assembled into the shape of a watch.
+                          Very likely works as a watch.<br><br>
+
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-dark">Get it</button>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-dark">
+    <div class="container-fluid">
+      <p class="m-0 text-center text-white">Copyright &copy; Shopping Club 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
