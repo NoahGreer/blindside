@@ -19,7 +19,7 @@ html,body {
     background-color: rgba(0,0,0,0.5) !important;
 }
 
-.card-header h3 {
+.card-header {
     color: white;
 }
 
