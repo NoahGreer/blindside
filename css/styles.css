@@ -1,56 +1,61 @@
-.img-boxed{
+.img-boxed {
     width:100%;
     height:500px;
     object-fit:cover;
 
 }
 
-.box-250{
+.box-250 {
     width: 250px;
     height: 250px;
     object-fit:cover;
 }
-.box-400{
+
+.box-400 {
     width: 100%;
     height: 15%;
     object-fit:cover;
 
 }
-.box-500{
+
+.box-500 {
     width: 500px;
     height: 500px;
     object-fit:cover;
 
 }
-.box-600{
+
+.box-600 {
     width: 600px;
     height: 600px;
     object-fit:cover;
 }
 
-.scrollable-column{
+.scrollable-column {
     height:95%;
     position:absolute;
     overflow-y:scroll;
 }
-.fit-to{
+
+.fit-to {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.bg-dark{
+
+.bg-dark {
     background-color: rebeccapurple;
 }
-.bg-purple{
+
+.bg-purple {
     background-color: #463553;
 }
 
 .blurred-edge {
-
     /* you need to match the shadow color to your background or image border for the desired effect*/
     box-shadow: 0 0 80px 80px #343a40 inset;
 }
 
-.bg-lightgray{
+.bg-lightgray {
     background-color: #e2d9e2;
 }
